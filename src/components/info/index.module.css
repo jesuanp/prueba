@@ -1,0 +1,355 @@
+.container {
+    color: #000d41;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem 50px 5rem 50px;
+}
+
+.btnGetStarted {
+    background-color: transparent;
+    border: 2px solid #000d41;
+    padding: 0.5rem 1rem;
+    border-radius: 120px;
+    color: #000d41;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+
+.smallText {
+    font-size: 10px;
+    color: grey;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+}
+
+.containerCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.cardsInfo {
+    border-radius: 10px;
+    height: 12rem;
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.cardsInfo span {
+    color: #000d41;
+}
+
+.textCard {
+    font-size: 14px;
+    text-align: center;
+    color: grey;
+}
+
+.separatorLine {
+    width: 100%;
+    background-color: rgb(216, 216, 216);
+    height: 1px;
+    border-radius: 100px;
+    margin: 5rem 0 5rem 0;
+}
+
+.containerSectionTwo {
+    width: 100%;
+    margin-bottom: 10rem;
+}
+
+.headerSectionTwo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerLetters {
+    position: relative;
+}
+
+.letter {
+    /* position: absolute; */
+    height: 21rem;
+    width: 18rem;
+    background-color: rgb(161, 161, 161);
+    border-radius: 10px;
+}
+.letter::before {
+    content: '';
+    height: 24rem;
+    width: 18rem;
+    background-color: rgb(161, 161, 161);
+    border-radius: 10px;
+    top: 40px;
+    left: 120px;
+    position: absolute;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.letterTwo {
+    height: 23rem;
+    width: 18rem;
+    background-color: rgb(161, 161, 161);
+    border-radius: 10px;
+}
+.letterTwo::before {
+    content: '';
+    height: 21rem;
+    width: 18rem;
+    background-color: rgb(161, 161, 161);
+    border-radius: 10px;
+    top: 70px;
+    left: -120px;
+    position: absolute;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.divLetterAndInfo {
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.divTextSectionTwo {
+    margin-left: 10rem;
+}
+.divTextSectionTwo p {
+    color: rgb(48, 48, 48);
+}
+
+.divTextAndIcon{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.divText {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.mainText {
+    margin-bottom: 2rem;
+}
+
+.divSectionThree {
+    background-color: #b6e3fa;
+    border-radius: 20px;
+    padding: 3rem;
+}
+
+.divProgress {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: #000;
+}
+
+.divProgress div {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.startups {
+    display: flex;
+    gap: 2rem;
+    margin-top: 5rem;
+    justify-content: center;
+    filter: blur(3px);
+}
+.startups div {
+    display: flex;
+    gap: 0.2rem;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.divSectionFour {
+    margin-top: 4rem;
+}
+
+.video {
+    height: 20rem;
+    width: 28rem;
+    background-color: rgb(161, 161, 161);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.btnPlay {
+    background-color: #fff;
+    width: 5.2rem;
+    height: 5.2rem;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btnLatestProjects {
+    background-color: #1572A1;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.statistics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 4rem;
+}
+
+.statistics div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.divSectionFive {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    background-color: #b6e3fa;
+    border-radius: 20px;
+    padding: 3rem;
+    height: 28.88rem;
+}
+
+.priceCard {
+    width: 16rem;
+    height: 24rem;
+    background-color: #000d41;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px grey;
+}
+
+.priceCard div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.divLetterAndPercentage {
+    display: flex;
+}
+
+.videoAndInfo {
+    display: flex;
+}
+
+.cardsAndInfoPrice {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* switch button */
+.switchButton {
+    display: inline-block;
+}
+.switchButton .switchButton__checkbox {
+    display: none;
+}
+.switchButton .switchButton__label {
+    background-color: #fe5e41;
+    width: 3rem;
+    height: 1rem;
+    border-radius: 3rem;
+    display: inline-block;
+    position: relative;
+}
+.switchButton .switchButton__label:before {
+    transition: .2s;
+    display: block;
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    background-color: #fdffff;
+    content: '';
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 0px 1px #000;
+}
+.switchButton .switchButton__checkbox:checked + .switchButton__label {
+    background-color: #1572A1;
+}
+.switchButton .switchButton__checkbox:checked + .switchButton__label:before {
+    transform: translateX(2rem);
+}
+
+
+
+@media (max-width: 1000px){
+    .cardsAndInfoPrice {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .divSectionFive {
+        height: 38rem;
+    }
+}
+
+@media (max-width: 955px){
+    .headerSectionTwo {
+        flex-direction: column;
+
+    }
+    .btnGetStarted {
+        margin-top: 1rem;
+    }
+    .videoAndInfo {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 850px){
+    .divLetterAndInfo {
+        flex-direction: column-reverse;
+    }
+    .divTextSectionTwo {
+        margin-left: 0;
+    }
+    .divLetterAndPercentage {
+        flex-direction: column;
+    }
+    .containerLetters {
+        margin-left: 200px;
+    }
+    .divProgress {
+        justify-content: center;
+    }
+    
+}

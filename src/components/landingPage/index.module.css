@@ -1,0 +1,29 @@
+.container { 
+    margin-top: 10rem;
+    margin-bottom: 14.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.text {
+    margin-top: 1rem;
+    width: 40rem;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.btnPlay {
+    background-color: #fff;
+    width: 5.2rem;
+    height: 5.2rem;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

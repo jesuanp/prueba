@@ -1,0 +1,9 @@
+.fondo {
+    background: linear-gradient(50deg, #6D67E4 20%, #5fdada);
+    height: 44rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}

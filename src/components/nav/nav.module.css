@@ -1,0 +1,48 @@
+.navUl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+    position: relative;
+}
+.navUl li {
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 0.5rem;
+    height: 2rem;
+    color: #fff;
+    /* background-color: grey; */
+}
+
+.navbarTop {
+    /* background-color: salmon; */
+    border-bottom: 1px solid #fff;
+    margin-bottom: 1rem;
+}
+
+.ulLeft li {
+    height: 100%;
+    border-left: 1px solid #fff;
+    padding-left: 1rem;
+}
+
+.ulRight li {
+    height: 100%;
+    border-right: 1px solid #fff;
+    padding-right: 1rem;
+}
+
+.btn{
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 120px;
+    color: #000d41;
+}
+
